@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router";
+import Logo from "../Logo/Logo";
 
 const Navbar = () => {
-
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
@@ -11,8 +11,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="navbar bg-base-100">
-        
+      <div className="navbar bg-white my-4 px-6 rounded-2xl">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +42,9 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <div className="flex">
+            <Logo/>
+          </div>
         </div>
 
         <div className="navbar-center hidden lg:flex">
@@ -56,8 +57,10 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div className="navbar-end gap-3">
+          <Link className="btn shadow-none border-lime-300 bg-white w-24 rounded-2xl">Login</Link>
+          <Link className="btn shadow-none border-lime-300 bg-white w-24 rounded-2xl">Register</Link>
+          <Link className="btn shadow-none border-lime-300 bg-white w-24 rounded-2xl">Log Out</Link>
         </div>
       </div>
     </div>

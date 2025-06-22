@@ -1,9 +1,13 @@
 import React from "react";
+import Logo from "../Logo/Logo";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+      <footer className="footer gap-4 footer-horizontal footer-center bg-teal-950 res-padding text-white rounded-2xl p-10 my-10">
+        <div>
+          <Logo/>
+        </div>
         <nav className="grid grid-flow-col gap-4">
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>

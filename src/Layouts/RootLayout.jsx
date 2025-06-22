@@ -5,14 +5,14 @@ import Footer from "../Pages/Shared/Footer/Footer";
 
 const RootLayout = () => {
   return (
-    <div className="w-full flex flex-col min-h-screen">
-      <section className="sticky top-0 z-50">
+    <div className="w-full flex flex-col min-h-screen bg-gray-100">
+      <section className="res-padding">
         <Navbar />
       </section>
       <section className="flex-grow">
         <Outlet />
       </section>
-      <section className="sticky bottom-0 z-50">
+      <section className="bottom-0 z-50 res-padding">
         <Footer />
       </section>
     </div>
