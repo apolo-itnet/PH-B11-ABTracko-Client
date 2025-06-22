@@ -5,8 +5,10 @@ import Logo from "../Logo/Logo";
 const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+    { name: "Services", path: "/services" },
+    { name: "About Us", path: "/about" },
+    { name: "Pricing", path: "/pricing" },
+    { name: "Be a Rider", path: "/rider" },
   ];
 
   return (
