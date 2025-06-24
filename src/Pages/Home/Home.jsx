@@ -2,11 +2,11 @@ import React from "react";
 import Banner from "./Banner";
 import Services from "./Services/Services";
 import HowItWorks from "../Shared/HowItWorks";
-import Marquee from "./Marquee/LogoMarquee";
 import LogoMarquee from "./Marquee/LogoMarquee";
 import ParcelDetails from "./ParcelDetails/ParcelDetails";
 import MerchantSection from "./MerchantSection";
-import FAQ from "./FAQ/FAQ";
+import FAQAccordion from "./FAQ/FAQAccordion";
+import FeedbackSection from "./FeedbackSection/FeedbackSection";
 
 const Home = () => {
   return (
@@ -30,7 +30,10 @@ const Home = () => {
         <MerchantSection/>
       </div>
       <div>
-        <FAQ/>
+        <FeedbackSection/>
+      </div>
+      <div>
+        <FAQAccordion/>
       </div>
     </div>
   );

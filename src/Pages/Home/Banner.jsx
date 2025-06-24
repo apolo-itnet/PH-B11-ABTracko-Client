@@ -4,7 +4,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Banner = () => {
   return (
-    <div className=" w-full mx-auto res-padding " >
+    <div
+    data-aos="fade-up"
+    data-aos-duration="1000"
+     className=" w-full mx-auto res-padding " >
       <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} showStatus={false} showArrows={false} >
         <div>
           <img src={"https://i.postimg.cc/Hx1M6zT0/banner1.png"} />

@@ -19,10 +19,10 @@ const MerchantSection = () => {
             parcels in every corner of Bangladesh right on time.7
           </p>
           <div className="flex justify-between gap-4 w-52">
-            <Link className="btn shadow-none border-none bg-lime-300 rounded-full w-full font-bold">
+            <Link className="btn shadow-none border-none bg-lime-300 rounded-full w-full font-bold hover:bg-white transition-colors ease-in-out duration-300">
               Become a Merchant
             </Link>
-            <Link className="btn shadow-none border-lime-300 bg-transparent rounded-full w-full font-bold text-xs text-lime-300 tracking-wide">
+            <Link className="btn shadow-none border-lime-300 bg-transparent rounded-full w-full font-bold text-xs text-lime-300 tracking-wide hover:text-white hover:border-white transition-colors ease-in-out duration-300">
               Earn with ABTracko Courier
             </Link>
           </div>
