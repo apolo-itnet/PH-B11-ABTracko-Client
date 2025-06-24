@@ -5,6 +5,8 @@ import HowItWorks from "../Shared/HowItWorks";
 import Marquee from "./Marquee/LogoMarquee";
 import LogoMarquee from "./Marquee/LogoMarquee";
 import ParcelDetails from "./ParcelDetails/ParcelDetails";
+import MerchantSection from "./MerchantSection";
+import FAQ from "./FAQ/FAQ";
 
 const Home = () => {
   return (
@@ -23,6 +25,12 @@ const Home = () => {
       </div>
       <div>
         <ParcelDetails/>
+      </div>
+      <div>
+        <MerchantSection/>
+      </div>
+      <div>
+        <FAQ/>
       </div>
     </div>
   );
